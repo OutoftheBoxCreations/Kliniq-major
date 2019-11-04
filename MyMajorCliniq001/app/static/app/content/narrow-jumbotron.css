@@ -1,0 +1,192 @@
+﻿/* Space out content a bit */
+body {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  background-image: url(../images/msbb.svg);
+  align-items:center;
+}
+
+.searchtron {
+  text-align: center;
+  margin-top: 5.0rem;
+  margin-bottom: 0.5rem;
+}
+.searchtron .btn-primary {
+  padding: .75rem 1.5rem;
+  font-size: 1.25rem;
+}
+#user_input_form {
+    align-content:center;
+}
+#user_query_input {
+    max-width: 60rem;
+    max-height:4rem;
+    height:4rem;
+    font-size:larger;
+    background-color:rgba(25, 22, 22, 0.40);
+    color:aliceblue;
+}
+#user_query_button {
+    margin-left:1rem;
+    font-size:larger;
+    max-height:4rem;
+    max-width: 16rem;
+    background-color:#b94a48;
+    border: 0.04rem solid rgba(240, 248, 255, 0.60);
+    color:#e5e5e5;
+}
+.resulttron {
+  text-align: center;
+  padding: 1rem;
+  margin-top: 4.5rem;
+  margin-bottom: 1.0rem;
+  border-bottom: 0.4rem solid #2b2929;
+  box-shadow:rgba(25, 22, 22, 0.95) 2rem, 2rem;
+  background-color: rgba(25, 22, 22, 0.20); 
+  color:cornsilk;
+}
+#ResultItem {
+    background-color: rgba(25, 22, 22, 0.50); 
+    margin: 1rem;
+    border-bottom: 0.4rem solid #2b2929;
+    border-top: 0.2rem solid rgba(255, 255, 255, 0.70);
+    text-align: left;
+    padding: 0.75rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    max-width:80rem;
+    min-width:60rem;
+    box-shadow:rgba(25, 22, 22, 0.95) 2px, 2px;
+}
+#textfordarkback{
+    color:cornsilk;
+}
+#textforlightback{
+    color:rgba(25, 22, 22, 0.95);
+}
+#icon {
+    width:40px ; 
+    height:40px ;
+}
+
+#logo {
+    align-self:center;
+    width:240px ; 
+    height:240px ;
+}
+
+.image_container {
+    align-items:center;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 1rem;
+  color: #FFFFFF;
+  padding-left: 1rem;
+}
+
+/* Custom page header */
+.header {
+  padding-bottom: 1rem;
+  border-bottom: .05rem solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 3rem;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 0.5rem;
+  color: #FFFFFF;
+}
+
+/* Customize container */
+@media (min-width: 60em) {
+  .container {
+    max-width: 80rem;
+  }
+}
+.container-narrow > hr {
+  margin: 4rem 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: .05rem solid #e5e5e5;
+  background-color:rgba(255, 255, 255, 0.60);
+}
+.jumbotron .btn {
+  padding: .75rem 1.5rem;
+  font-size: 1.25rem;
+}
+
+
+/* Supporting marketing content */
+.marketing {
+  margin: 3rem 0;
+}
+.marketing p + h4 {
+  margin-top: 1.5rem;
+}
+.form-control {
+    margin-bottom: 1rem;
+    align-self: stretch;
+}
+.btn btn-primary btn-large{
+    width: 50%;
+    margin-bottom: 2rem;
+    margin: auto;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 40em) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+    color: #FFFFFF;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 2rem;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+    margin-bottom:14rem;
+  }
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="text"].input-validation-error {
+    border: 1em solid #b94a48;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
